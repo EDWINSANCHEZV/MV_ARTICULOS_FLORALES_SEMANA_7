@@ -1,0 +1,119 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #4f8164;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+
+.navbar-brand{
+    font-size: 24px;
+}
+
+.nav-link{
+    font-size: 16px;
+}
+
+.nav-link:hover{
+    color: #FFD54F !important;
+}
+
+.hero{
+    background: linear-gradient(rgba(20,83,45,.78), rgba(20,83,45,.78));
+    color: white;
+    padding: 150px 20px 120px;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.hero p{
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+#quienes{
+    color: white;
+}
+
+#quienes h2{
+    color: #FFD54F;
+    font-weight: bold;
+}
+
+#productos h2,
+#contacto h2,
+section h2{
+    color: white;
+    font-weight: bold;
+}
+
+.card{
+    border: none;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,.3);
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+form,
+aside div{
+    border-radius: 15px;
+}
+
+footer{
+    background: #14532d;
+    color: white;
+}
+
+@media(max-width: 768px){
+    .hero h1{
+        font-size: 36px;
+    }
+
+    .hero p{
+        font-size: 18px;
+    }
+
+    .navbar-brand{
+        font-size: 18px;
+    }
+
+    .hero{
+        padding: 120px 20px 80px;
+    }
+/* Estilos Semana 7 */
+
+    .card-dinamica {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card-dinamica:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    #plantillas {
+  background-color: #f4fff7;
+  border-radius: 15px;
+    }
+
+    #plantillas .card {
+  border-left: 5px solid #198754;
+    }
+
+}

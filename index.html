@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MV Artículos Florales</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">🌹 MV Artículos Florales</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Inicio</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#plantillas">Plantillas</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quienes">Quiénes Somos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#productos">Productos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solicitudes">Solicitudes</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <!-- INICIO -->
+    <section id="inicio" class="hero">
+        <div class="container text-center">
+            <h1>MV Artículos Florales</h1>
+            <p>Insumos y materiales para el sector florícola</p>
+            <a href="#productos" class="btn btn-warning btn-lg">Ver productos</a>
+        </div>
+    </section>
+
+    <!-- QUIÉNES SOMOS -->
+    <section id="quienes" class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4">
+                <h2 class="mb-4">¿Quiénes Somos?</h2>
+
+                <p>
+                    MV Artículos Florales es un emprendimiento ecuatoriano dedicado a la comercialización
+                    de insumos y materiales para florícolas, floristerías y empresas del sector agrícola.
+                </p>
+
+                <p>
+                    Nuestro compromiso es ofrecer productos de calidad, excelente atención y soluciones
+                    que contribuyan al desarrollo de nuestros clientes.
+                </p>
+
+                <a href="#contacto" class="btn btn-warning btn-lg">Contáctanos</a>
+            </div>
+
+            <div class="col-md-6 text-center">
+                <img src="img/mv_articulos_florales.png" class="img-fluid rounded shadow" alt="Logo MV Artículos Florales">
+            </div>
+        </div>
+    </section>
+
+    <!-- MISIÓN Y VISIÓN -->
+    <section class="container py-5">
+        <div class="row">
+            <article class="col-md-6 mb-4">
+                <div class="card shadow p-4 h-100">
+                    <h3 class="text-success">Misión</h3>
+                    <p>
+                        Ofrecer insumos, materiales y accesorios para el sector florícola,
+                        garantizando calidad, innovación y un excelente servicio al cliente.
+                    </p>
+                </div>
+            </article>
+
+            <article class="col-md-6 mb-4">
+                <div class="card shadow p-4 h-100">
+                    <h3 class="text-success">Visión</h3>
+                    <p>
+                        Ser una empresa líder en la comercialización de artículos florales en Ecuador,
+                        reconocida por la confianza, calidad y satisfacción de nuestros clientes.
+                    </p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- BLOQUE DE CONTENIDO DINÁMICO: esta sección puede convertirse luego en una plantilla de Flask -->
+<section id="productos" class="container py-5">
+  <h2 class="text-center mb-3">Nuestros Productos</h2>
+
+  <p class="text-center mb-5">
+    Los productos se muestran dinámicamente desde JavaScript mediante un arreglo de objetos.
+  </p>
+
+  <div id="contenedorProductos" class="row g-4">
+    <!-- Aquí JavaScript renderiza las tarjetas de productos -->
+  </div>
+</section>
+
+    <!-- VIDEO -->
+    <section class="container py-5">
+        <h2 class="text-center mb-4">Sector Florícola</h2>
+        <p class="text-center">
+            La floricultura es una actividad importante en Ecuador, especialmente por la producción
+            y comercialización de rosas.
+        </p>
+
+        <div class="ratio ratio-16x9 shadow rounded">
+            <iframe src="https://www.youtube.com/embed/rUGRkIF4QZQ"
+                title="Video sobre flores"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
+
+    <!-- BLOQUE DE PLANTILLAS: simulación de estructura base.html para futura integración con Flask -->
+    <section id="plantillas" class="container py-5">
+        <h2 class="text-center mb-4">Estructura preparada para plantillas</h2>
+
+        <p class="text-center">
+    Esta página se organizó en bloques reutilizables como encabezado, menú, contenido principal y pie de página.
+    Esta estructura permitirá una futura migración hacia Flask utilizando una plantilla base.html.
+        </p>
+
+        <div id="resumenPlantillas" class="row g-4 mt-4">
+    <!-- Aquí JavaScript muestra los bloques reutilizables -->
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="container py-5">
+        <h2 class="text-center mb-5">Contáctanos</h2>
+
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <form class="bg-white p-4 rounded shadow">
+                    <div class="mb-3">
+                        <label class="form-label">Nombre</label>
+                        <input type="text" class="form-control" placeholder="Ingrese su nombre">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Correo electrónico</label>
+                        <input type="email" class="form-control" placeholder="Ingrese su correo">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Asunto</label>
+                        <input type="text" class="form-control" placeholder="Ingrese el asunto">
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Mensaje</label>
+                        <textarea class="form-control" rows="4" placeholder="Escriba su mensaje"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-success w-100">Enviar mensaje</button>
+                </form>
+            </div>
+
+            <aside class="col-md-6 mb-4">
+                <div class="bg-white p-4 rounded shadow h-100">
+                    <h3 class="text-success">Información de contacto</h3>
+                    <p><strong>Correo:</strong> mvarticulosflorales@gmail.com</p>
+                    <p><strong>Teléfono:</strong> 0988744225</p>
+                    <p><strong>Ubicación:</strong> Tabacundo</p>
+                    <p><strong>Horario:</strong> Lunes a sábado de 08h00 a 18h00</p>
+
+                    <a href="https://www.facebook.com" target="_blank" class="btn btn-outline-success m-1">Facebook</a>
+                    <a href="https://www.instagram.com" target="_blank" class="btn btn-outline-success m-1">Instagram</a>
+                    <a href="https://www.tiktok.com" target="_blank" class="btn btn-outline-success m-1">TikTok</a>
+                </div>
+            </aside>
+        </div>
+    </section>
+<!-- REGISTRO DE SOLICITUDES -->
+<section id="solicitudes" class="container my-5">
+  <h2 class="text-center mb-4">Registro de Solicitudes</h2>
+
+  <p class="text-center">
+    Complete el siguiente formulario para registrar un producto solicitado por un cliente.
+  </p>
+
+  <form id="formSolicitud" novalidate>
+    <div class="mb-3">
+      <label for="nombreProducto" class="form-label">Nombre del producto</label>
+      <input
+        type="text"
+        id="nombreProducto"
+        class="form-control"
+        placeholder="Ejemplo: Papel floral">
+
+      <div class="invalid-feedback" id="errorNombre"></div>
+      <div class="valid-feedback">Nombre correcto.</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="descripcionProducto" class="form-label">Descripción</label>
+      <textarea
+        id="descripcionProducto"
+        class="form-control"
+        rows="3"
+        placeholder="Describa el producto solicitado"></textarea>
+
+      <div class="invalid-feedback" id="errorDescripcion"></div>
+      <div class="valid-feedback">Descripción correcta.</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="categoriaProducto" class="form-label">Categoría</label>
+      <select id="categoriaProducto" class="form-select">
+        <option value="">Seleccione una categoría</option>
+        <option value="Papel floral">Papel floral</option>
+        <option value="Empaques">Empaques</option>
+        <option value="Cintas">Cintas</option>
+        <option value="Bases">Bases</option>
+        <option value="Mallas">Mallas</option>
+        <option value="Accesorios">Accesorios</option>
+      </select>
+
+      <div class="invalid-feedback" id="errorCategoria"></div>
+      <div class="valid-feedback">Categoría seleccionada.</div>
+    </div>
+
+    <button type="submit" class="btn btn-success w-100">
+      Registrar Solicitud
+    </button>
+  </form>
+
+  <div id="mensajeValidacion" class="mt-3"></div>
+
+  <h3 class="mt-4">
+    Solicitudes Registradas: <span id="totalRegistros">0</span>
+  </h3>
+
+  <div id="listaSolicitudes"></div>
+</section>
+</main>
+
+<footer class="text-center py-4">
+    <p class="mb-1"><strong>MV Artículos Florales</strong></p>
+    <p class="mb-1">Proyecto Integrador U2 - Semana 7</p>
+    <p class="mb-0">Desarrollado por Edwin Sánchez - 2026</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
